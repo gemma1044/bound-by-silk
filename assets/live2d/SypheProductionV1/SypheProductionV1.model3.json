@@ -1,0 +1,64 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "SypheProductionV1.moc3",
+		"Textures": [
+			"SypheProductionV1.2048/texture_00.png"
+		],
+		"Physics": "SypheProductionV1.physics3.json",
+		"DisplayInfo": "SypheProductionV1.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "calm",
+				"File": "SypheProductionV1.calm.exp3.json"
+			},
+			{
+				"Name": "smile",
+				"File": "SypheProductionV1.smile.exp3.json"
+			},
+			{
+				"Name": "eyes-closed",
+				"File": "SypheProductionV1.eyes-closed.exp3.json"
+			}
+		],
+		"Motions": {
+			"Idle": [
+				{
+					"File": "SypheProductionV1.idle.motion3.json"
+				}
+			],
+			"Blink": [
+				{
+					"File": "SypheProductionV1.blink.motion3.json"
+				}
+			],
+			"Nod": [
+				{
+					"File": "SypheProductionV1.nod.motion3.json"
+				}
+			],
+			"Shake": [
+				{
+					"File": "SypheProductionV1.shake.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		}
+	]
+}

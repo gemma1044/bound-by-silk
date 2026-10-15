@@ -1,0 +1,73 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "SypheLayeredV2.moc3",
+		"Textures": [
+			"SypheLayeredV2.2048/texture_00.png"
+		],
+		"Physics": "SypheLayeredV2.physics3.json",
+		"DisplayInfo": "SypheLayeredV2.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "neutral",
+				"File": "SypheLayeredV2.neutral.exp3.json"
+			},
+			{
+				"Name": "soft-smile",
+				"File": "SypheLayeredV2.soft-smile.exp3.json"
+			},
+			{
+				"Name": "eyes-closed",
+				"File": "SypheLayeredV2.eyes-closed.exp3.json"
+			},
+			{
+				"Name": "guarded",
+				"File": "SypheLayeredV2.guarded.exp3.json"
+			}
+		],
+		"Motions": {
+			"Idle": [
+				{
+					"File": "SypheLayeredV2.idle.motion3.json"
+				}
+			],
+			"Blink": [
+				{
+					"File": "SypheLayeredV2.blink.motion3.json"
+				}
+			],
+			"Nod": [
+				{
+					"File": "../SypheAlignedBaselineV2/SypheAlignedBaselineV2.nod.motion3.json"
+				}
+			],
+			"Shake": [
+				{
+					"File": "../SypheAlignedBaselineV2/SypheAlignedBaselineV2.shake.motion3.json"
+				}
+			],
+			"Approach": [
+				{
+					"File": "../SypheAlignedBaselineV2/SypheAlignedBaselineV2.approach.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		}
+	]
+}

@@ -1,0 +1,49 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Syphe.moc3",
+		"Textures": [
+			"Syphe.2048/texture_00.png"
+		],
+		"DisplayInfo": "Syphe.cdi3.json",
+		"Motions": {
+			"Idle": [
+				{
+					"File": "Syphe.idle.motion3.json"
+				}
+			],
+			"Blink": [
+				{
+					"File": "Syphe.blink.motion3.json"
+				}
+			],
+			"Nod": [
+				{
+					"File": "Syphe.nod.motion3.json"
+				}
+			],
+			"Shake": [
+				{
+					"File": "Syphe.shake.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		}
+	]
+}

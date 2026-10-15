@@ -1,0 +1,24 @@
+{
+  "createdAt": "2026-10-14",
+  "sourceTexture": "../SypheLayeredV2.2048/texture_00.png",
+  "sourceSha256": "9e40a6441d8eec14705402eebed529927e2c61bf2e3c172c7feed00d36ddc386",
+  "sourceSize": [2048, 2048],
+  "method": "Upscayl NCNN anime 2x RGB with 32px transparent-color extension; original alpha independently bicubic-scaled; runtime encoded as lossless WebP",
+  "outputTexture": "texture_00.webp",
+  "outputSha256": "3df5a12470e93fa99dc0bdf8e6f62223ad0bd2ffb4cf99c6d4ddea3335d29c9f",
+  "outputSize": [4096, 4096],
+  "intermediateRgbaSha256": "1532a44be5aa0fb3908335aa1cf9fefdd319200fd9be8d4b2035e740fa1b7e99",
+  "binary": {
+    "repository": "https://github.com/upscayl/upscayl-ncnn",
+    "release": "20251207-174704",
+    "sha256": "b7f54f362fc10d5f334e587fb90917e95a5557ec1cfefbddce78657dd3fee055"
+  },
+  "model": {
+    "repository": "https://github.com/upscayl/custom-models",
+    "commit": "4b6d2cfa59c7442af115dfc6e50fd8d7d40b96ef",
+    "name": "realesr-animevideov3-x2",
+    "paramSha256": "b88ff4f00ebf019a7fdac17fdd45a7fd3665d37509efc5baf2e4da2e24420a04",
+    "binSha256": "548a36f9c3f4ab8da56cd3b13badf23968bee207b396dad14d04b830e5f2ab2d"
+  },
+  "geometryChanged": false
+}
