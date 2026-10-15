@@ -3,7 +3,7 @@
 	"FileReferences": {
 		"Moc": "SypheLayeredV2.moc3",
 		"Textures": [
-			"SypheLayeredV2.2048/texture_00.png"
+			"SypheLayeredV2.4096/texture_00.webp"
 		],
 		"Physics": "SypheLayeredV2.physics3.json",
 		"DisplayInfo": "SypheLayeredV2.cdi3.json",

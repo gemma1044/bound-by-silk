@@ -2,14 +2,16 @@
 
 ## Background music
 
-- Title: `Forest of Sirens`
-- Creator: DarkScores (`v_manzan82`)
-- Source: https://pixabay.com/music/modern-classical-forest-of-sirens-533405/
+- Title: `Scary Halloween`
+- Creator: NastelBom (Dmitrii Spis)
+- Source: https://pixabay.com/music/scary-childrens-tunes-scary-halloween-617002/
 - License: Pixabay Content License
 - License summary: https://pixabay.com/service/license-summary/
 - Retrieved: 2026-10-15
-- Local derivative: `forest-of-sirens-pixabay-533405-v1.ogg`
-- Changes: audio-only extraction, Opus transcoding, loudness normalization, and short fades at the beginning and end.
+- Source duration: 75.65 seconds
+- Content ID: Registered by the creator on the Pixabay asset page
+- Local derivative: `scary-halloween-pixabay-617002-v1.ogg`
+- Changes: Opus transcoding, loudness normalization, and short fades at the beginning and end.
 
 Pixabay permits free use, modification, and use without attribution, subject to
 its prohibited uses. This credit is retained for provenance. The track must not
